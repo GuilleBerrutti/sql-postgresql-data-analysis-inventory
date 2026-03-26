@@ -19,7 +19,8 @@ A continuación, se muestra la ejecución de la consulta donde se observa el est
   <summary>💰 Ver Rentabilidad por Pedido (Cálculos)</summary>
   <br>
   <p>Cálculo dinámico de ingresos por línea de producto, fundamental para reportes de ventas.</p>
-  <img src="./proyecto-control-stock/Results/resultado_stock.png" alt="Resultado" width="600">
+  <img src="./proyecto-control-stock/Scripts
+/Results/resultado_stock.png" alt="Resultado" width="600">
 </details>
 
 ---
