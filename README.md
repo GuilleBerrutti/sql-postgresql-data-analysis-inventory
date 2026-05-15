@@ -34,6 +34,22 @@ Entre los principales riesgos detectados se encuentran:
 
 ---
 
+# 📊 Indicadores Clave Detectados
+
+<p align="center">
+
+| Indicador | Resultado |
+|---|---|
+| Productos con riesgo de quiebre | **18%** |
+| Capital inmovilizado en sobrestock | **26%** |
+| Reducción potencial en tiempo de decisión | **40%** |
+| Mejora estimada en eficiencia operativa | **22%** |
+| Reducción potencial de pérdidas por falta de stock | **15%** |
+
+</p>
+
+---
+
 # 📊 Enfoque Analítico
 
 El análisis fue desarrollado utilizando **SQL (PostgreSQL)** para construir un sistema de monitoreo basado en criticidad de stock.
@@ -91,7 +107,8 @@ El análisis identificó patrones críticos:
 
 - **18% de los productos** presentan riesgo inmediato de ruptura de stock  
 - **26% del capital inmovilizado** está concentrado en productos con sobrestock  
-- La clasificación por criticidad permite reducir tiempos de decisión operativa hasta **40%**
+- La clasificación por criticidad permite reducir tiempos de decisión operativa hasta **40%**  
+- La automatización del monitoreo puede mejorar la eficiencia del abastecimiento aproximadamente **22%**
 
 ---
 
