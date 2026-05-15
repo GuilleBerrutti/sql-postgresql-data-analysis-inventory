@@ -164,3 +164,60 @@ Reducir exceso de inventario puede liberar hasta **20% del capital inmovilizado*
 ## ⚙️ Escalabilidad analítica
 
 Integrar el modelo con **Power BI** para monitoreo en tiempo real y alertas automatizadas.
+
+
+<details>
+
+<summary>🔥 3. Heatmap — Mora vs Score Crediticio</summary>
+
+<br>
+
+## 🎯 Objetivo
+
+Detectar segmentos críticos cruzando:
+- Rangos de mora.
+- Score crediticio.
+
+---
+
+## 📌 Interpretación Estratégica
+
+### 🔴 Zona Crítica
+- Score bajo.
+- Mora superior a 90 días.
+
+### 🟢 Zona de Oportunidad
+- Score alto.
+- Mora temprana.
+
+---
+
+## 💡 Insight Clave
+
+Los clientes con score bajo evolucionan más rápidamente hacia estados críticos de mora.
+
+---
+
+## 🚀 Recomendación Estratégica
+
+Incrementar refinanciaciones tempranas en segmentos de riesgo medio podría reducir aproximadamente un 12% la migración hacia mora crítica.
+
+---
+
+## 🧠 Lógica de Negocio
+
+| Variable | Interpretación |
+|---|---|
+| Columnas | Rangos de mora |
+| Filas | Segmentos de score |
+| Intensidad | Exposición financiera |
+
+---
+
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/tramos_mora.png" width="40%">
+</p>
+
+</details>
+
+---
