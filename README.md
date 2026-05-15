@@ -1,30 +1,51 @@
 # 📦 Inventory Intelligence & Stock Optimization
 
+Sistema analítico orientado a detectar riesgos de quiebre de stock, optimizar capital inmovilizado y priorizar decisiones de abastecimiento mediante SQL y análisis operacional.
+
+---
+
+# 📊 Resultados Clave
+
+<p align="center">
+
+| KPI | Resultado |
+|---|---|
+| Productos con riesgo de quiebre | **18%** |
+| Capital inmovilizado en sobrestock | **26%** |
+| Reducción potencial del tiempo de decisión | **40%** |
+| Mejora estimada en eficiencia operativa | **22%** |
+| Reducción potencial de pérdidas por falta de stock | **15%** |
+| Capital recuperable mediante optimización | **20%** |
+
+</p>
+
 ---
 
 # 🎯 Objetivo del Proyecto
 
-Desarrollar un sistema de análisis de inventario capaz de:
+Desarrollar un sistema de análisis de inventario capaz de transformar datos transaccionales en decisiones operativas accionables para el área de abastecimiento.
 
-- Detectar productos con riesgo de quiebre de stock  
-- Identificar exceso de inventario y capital inmovilizado  
-- Priorizar decisiones de compra según criticidad operativa  
-- Transformar datos transaccionales en indicadores accionables para el área de abastecimiento  
+El proyecto busca:
 
-El proyecto utiliza SQL (PostgreSQL) para convertir datos operativos en información estratégica orientada a la toma de decisiones.
+- Detectar productos con riesgo crítico de quiebre
+- Identificar exceso de inventario y capital inmovilizado
+- Priorizar compras según criticidad operativa
+- Mejorar visibilidad sobre productos estratégicos
+- Optimizar el capital de trabajo asociado al stock
 
 ---
 
 # 🧠 Problema de Negocio
 
-La gestión ineficiente del inventario impacta directamente en la rentabilidad y continuidad operativa.
+La falta de visibilidad sobre el estado real del inventario genera impactos directos sobre la rentabilidad y continuidad operativa.
 
 Entre los principales riesgos detectados se encuentran:
 
-- Pérdida de ventas por falta de stock  
-- Sobrecostos asociados a sobreinventario  
-- Baja rotación de productos  
-- Falta de visibilidad sobre prioridades reales de reposición  
+- Pérdida de ventas por quiebres de stock
+- Sobrecostos asociados a almacenamiento innecesario
+- Capital inmovilizado en productos de baja rotación
+- Baja capacidad de priorización operativa
+- Tiempos lentos en la toma de decisiones de compra
 
 👉 **Pregunta central del análisis:**
 
@@ -32,101 +53,92 @@ Entre los principales riesgos detectados se encuentran:
 
 ---
 
-# 📊 Indicadores Clave Detectados
+# 📌 Hallazgo Principal
+
+El análisis reveló que casi **1 de cada 5 productos** presentaba riesgo de quiebre de stock, mientras que un **26% del capital total** se encontraba inmovilizado en productos con sobrestock.
+
+La ausencia de un sistema de priorización dificultaba identificar rápidamente qué productos requerían reposición urgente y cuáles estaban generando costos innecesarios para la operación.
+
+Mediante una clasificación automática basada en criticidad operativa, el proyecto permitió transformar datos de inventario en decisiones estratégicas para abastecimiento.
+
+---
+
+# 🔍 Insights Detectados
+
+- El riesgo de quiebre estaba concentrado en un grupo reducido de productos críticos
+- Los productos de baja rotación acumulaban una parte significativa del capital inmovilizado
+- La falta de priorización operativa aumentaba tiempos de respuesta del área de compras
+- Existían desequilibrios entre disponibilidad de stock y demanda operativa
+- El sobrestock generaba ineficiencias financieras y logísticas
+
+---
+
+# 📊 Dashboard Final
 
 <p align="center">
-
-| Indicador | Resultado |
-|---|---|
-| Productos con riesgo de quiebre | **18%** |
-| Capital inmovilizado en sobrestock | **26%** |
-| Reducción potencial en tiempo de decisión | **40%** |
-| Mejora estimada en eficiencia operativa | **22%** |
-
+  <img src="proyecto-control-stock/Scripts/Results/resultado_stock.png" width="1000">
 </p>
 
 ---
 
-## 🔴 Reposición inmediata
+# 🧠 Decisiones Analíticas Implementadas
 
-Automatizar alertas para productos críticos y reducir pérdidas potenciales de venta en **hasta 15%**.
-
-## 🟡 Monitoreo preventivo
-
-Aplicar revisiones periódicas para anticipar desabastecimiento.
-
-## 🟢 Optimización de sobrestock
-
-Reducir exceso de inventario puede liberar hasta **20% del capital inmovilizado**.
+- Priorización automática de productos según criticidad operativa
+- Identificación de inventario con riesgo de quiebre
+- Detección de capital inmovilizado por sobrestock
+- Clasificación visual para acelerar decisiones de abastecimiento
+- Generación de alertas operativas basadas en niveles de stock
+- Optimización del foco operativo del área de compras
 
 ---
 
+# 🧩 Técnicas SQL Utilizadas
 
-# 📊 Enfoque Analítico
-
-El análisis fue desarrollado utilizando **SQL (PostgreSQL)** para construir un sistema de monitoreo basado en criticidad de stock.
-
-Incluye:
-
-- Evaluación de niveles de inventario por producto  
-- Clasificación automática según riesgo operativo  
-- Cálculo del valor económico del stock disponible  
-- Priorización visual mediante lógica tipo semáforo  
-- Generación de reportes orientados a compras y abastecimiento  
+- Common Table Expressions (CTEs)
+- CASE WHEN para clasificación operativa
+- Agregaciones y métricas KPI
+- Conversión financiera de indicadores
+- Priorización automatizada de inventario
+- Ordenamiento estratégico por criticidad
+- Cálculo de métricas económicas de stock
 
 ---
 
-# 🛠️ Técnicas Aplicadas
+# ⚙️ Stack Tecnológico
 
-<summary><b>🔹 Lógica Condicional (`CASE WHEN`)</b></summary>
-
-Clasificación automática del inventario:
-
-- 🔴 Crítico  
-- 🟡 Moderado  
-- 🟢 Sobrestock  
-
-<summary><b>🔹 Conversión Numérica (`::numeric`)</b></summary>
-
-Precisión financiera aplicada al cálculo de:
-
-- Valor total del inventario  
-- Costos asociados  
-- Indicadores económicos críticos  
-
-<summary><b>🔹 Ordenamiento Estratégico y Alias</b></summary>
-
-Optimización de legibilidad mediante:
-
-- Priorización de productos críticos  
-- Nombres descriptivos de métricas  
-- Reporte ejecutivo listo para negocio  
+- PostgreSQL
+- SQL
+- Business Analytics
+- Inventory Intelligence
+- KPI Monitoring
+- Operational Analytics
+- Data Analysis
+- Supply Chain Analytics
 
 ---
 
-# 📊 Resultado del Proyecto
+# 💰 Impacto Financiero Estimado
 
-El resultado final es un reporte visual de inventario que facilita la priorización inmediata.
+La implementación del análisis permitiría:
 
-<details>
-<summary><b>📦 Ver análisis de inventario</b></summary>
-
-<br>
-
-<p align="center">
-  <img src="proyecto-control-stock/Scripts/Results/resultado_stock.png" width="900">
-</p>
-
-</details>
+- Reducir pérdidas por quiebres de stock en hasta **15%**
+- Liberar aproximadamente **20% del capital inmovilizado**
+- Disminuir costos asociados a almacenamiento innecesario
+- Mejorar la rotación de productos críticos
+- Incrementar velocidad de respuesta operativa
+- Optimizar decisiones de compra y abastecimiento
 
 ---
 
 # 🚀 Impacto de Negocio
 
-La implementación del análisis permite:
+El sistema analítico desarrollado permite convertir datos operativos en inteligencia accionable para el área de abastecimiento.
 
-- Reducir riesgos de quiebre de stock  
-- Optimizar capital inmovilizado  
-- Mejorar velocidad de respuesta operativa  
-- Priorizar compras críticas automáticamente  
-- Incrementar eficiencia del abastecimiento  
+Entre los principales beneficios se destacan:
+
+- Mayor continuidad operativa
+- Mejor utilización del capital de trabajo
+- Reducción de riesgos de desabastecimiento
+- Priorización automática de compras críticas
+- Mayor eficiencia logística y operativa
+- Mejor capacidad de respuesta ante cambios de demanda
