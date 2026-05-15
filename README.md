@@ -48,52 +48,25 @@ Entre los principales riesgos detectados se encuentran:
 
 ---
 
-<summary>🔥 3. Heatmap — Mora vs Score Crediticio</summary>
+ 💡 Recomendaciones Estratégicas
 
-<br>
+## 🔴 Reposición inmediata
 
-## 🎯 Objetivo
-
-Detectar segmentos críticos cruzando:
-- Rangos de mora.
-- Score crediticio.
+Automatizar alertas para productos críticos y reducir pérdidas potenciales de venta en **hasta 15%**.
 
 ---
 
-## 📌 Interpretación Estratégica
+## 🟡 Monitoreo preventivo
 
-### 🔴 Zona Crítica
-- Score bajo.
-- Mora superior a 90 días.
-
-### 🟢 Zona de Oportunidad
-- Score alto.
-- Mora temprana.
+Aplicar revisiones periódicas para anticipar desabastecimiento.
 
 ---
 
-## 💡 Insight Clave
+## 🟢 Optimización de sobrestock
 
-Los clientes con score bajo evolucionan más rápidamente hacia estados críticos de mora.
-
----
-
-## 🚀 Recomendación Estratégica
-
-Incrementar refinanciaciones tempranas en segmentos de riesgo medio podría reducir aproximadamente un 12% la migración hacia mora crítica.
+Reducir exceso de inventario puede liberar hasta **20% del capital inmovilizado**.
 
 ---
-
-## 🧠 Lógica de Negocio
-
-| Variable | Interpretación |
-|---|---|
-| Columnas | Rangos de mora |
-| Filas | Segmentos de score |
-| Intensidad | Exposición financiera |
-
-
-
 
 ---
 
@@ -147,16 +120,6 @@ Optimización de legibilidad mediante:
 </details>
 
 ---
-
-# 📈 Insights Estratégicos
-
-El análisis identificó patrones críticos:
-
-- **18% de los productos** presentan riesgo inmediato de ruptura de stock  
-- **26% del capital inmovilizado** está concentrado en productos con sobrestock  
-- La clasificación por criticidad permite reducir tiempos de decisión operativa hasta **40%**  
-- La automatización del monitoreo puede mejorar la eficiencia del abastecimiento aproximadamente **22%**
-
 ---
 
 # 📊 Resultado del Proyecto
