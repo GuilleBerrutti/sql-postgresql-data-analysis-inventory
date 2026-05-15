@@ -130,6 +130,3 @@ La implementación del análisis permite:
 - Mejorar velocidad de respuesta operativa  
 - Priorizar compras críticas automáticamente  
 - Incrementar eficiencia del abastecimiento  
-
-
-
