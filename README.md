@@ -47,8 +47,6 @@ Entre los principales riesgos detectados se encuentran:
 
 ---
 
-##  💡 Recomendaciones Estratégicas
-
 ## 🔴 Reposición inmediata
 
 Automatizar alertas para productos críticos y reducir pérdidas potenciales de venta en **hasta 15%**.
