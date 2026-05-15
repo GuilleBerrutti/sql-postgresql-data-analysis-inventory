@@ -28,7 +28,7 @@ Entre los principales riesgos detectados se encuentran:
 
 👉 **Pregunta central del análisis:**
 
-**¿Qué productos requieren acción inmediata y cómo optimizar el capital invertido en inventario?**
+## ¿Qué productos requieren acción inmediata y cómo optimizar el capital invertido en inventario?
 
 ---
 
