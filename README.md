@@ -42,7 +42,6 @@ Entre los principales riesgos detectados se encuentran:
 | Capital inmovilizado en sobrestock | **26%** |
 | Reducción potencial en tiempo de decisión | **40%** |
 | Mejora estimada en eficiencia operativa | **22%** |
-| Reducción potencial de pérdidas por falta de stock | **15%** |
 
 </p>
 
